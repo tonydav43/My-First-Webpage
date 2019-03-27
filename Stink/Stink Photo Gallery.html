@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Stink Photo Gallery</title>
+
+	<meta charset="utf-8"> <!--utf-8 is character encoding capable of encoding all characters on the web-->
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--The browser's viewport is the area of the window in which web content can be seen-->
+
+  	<link href="https://fonts.googleapis.com/css?family=Srisakdi:400,700" rel="stylesheet"> <!--Google embeded code font-->
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--Version 3.4.0-->
+
+	<link rel="stylesheet" type="text/css" href="Photo Gallery.css"> <!--Custom css file-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> <!--Link to awesome font-->
+	
+
+	<!--Bootstrap's global default font-size is 14px, with a line-height of 1.428.This is applied to the <body> element and all paragraphs (<p>).
+	In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default). -->
+
+</head>
+
+<body>
+<!--Nav bar container also containing the header-->
+									
+							<!--Nav bar containerr-->
+<nav class="navbar navbar-default navbar-fixed-top"> <!--Navbar class, default navigation bar which is fixed at the top-->
+	<div class="container-fluid"> <!--Container fluid class stretches the whole width which is inside the navigation bar class-->
+
+		<div class="navbar-header"> <!--Navigation bar header-->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+				<!--The nav bar is a button type, collpses as the screen gets smaller and shows a hamburger, show/hide collapsable content and the ID associated with it-->
+				<span class="icon-bar"></span> <!--Hamburger line 1-->
+        		<span class="icon-bar"></span> <!--Hamburger line 2-->
+        		<span class="icon-bar"></span> <!--Hamburger line 3-->
+			</button>
+		</div>
+							<!--Right Collapsable Navbar-->
+		<div class="collapse navbar-collapse" id="myNavbar"> <!--Menu can collpase etc depending on screen size, link to the collapsable item in the button above-->
+			<ul class="nav navbar-nav navbar-right"> <!--Sets the navigation bar to the left side which is default-->
+				<li><a href="Stink Tattoo Studio.html" target="blank"> Home <i class="fas fa-home"></i></a></li> <!-- Active list item with a link and a home awesome icon-->
+        		<li><a href="About.html" target="blank"> About <i class="fas fa-users"></i></a></li> <!-- List item with a link and a user icon-->
+        		<li><a href="#"> Gallery <i class="fas fa-images"></i></a></li> <!-- List item with a link to a gallery page and a picture awesome icon-->
+        		<li><a href="Pricing.html" target="blank"> Pricing <i class="fas fa-pound-sign"></i></a></li> <!-- List item with a link and a telephone awesome icon-->
+        		<li><a href="FAQ.html" target="blank"> FAQ <i class="fas fa-info-circle"></i></a></li> <!-- List item with a link and a telephone awesome icon-->
+        		<li><a href="Testimonials.html" target="blank"> Testimonials <i class="fas fa-user-friends"></i></a></li> <!-- List item with a link and a user awesome icon-->
+        		<li><a href="Contact.html" target="blank"> Contact <i class="fas fa-phone"></i></a></li> <!-- List item with a link and a pound sign awesome icon-->		
+			</ul>
+
+							<!--Left follow us links-->
+			<span style="color: ¨black"> Follow Us </span> <!--Basic text-->
+			<a href="https://www.facebook.com/stinktattoo/" target="blank"><i class="fab fa-facebook-square" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your facebook page, with an awesome facebook font icon-->
+			<a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your twitter page, an awesome twitter font icon-->
+			<a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your twitter page, an awesome instagram font icon-->
+			<a href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your linkedin page, an awesome linkedin font icon-->
+		</div> 
+	</div>
+</nav>	
+
+	
+						<!--Jumbotron Container--> 
+
+<div class="container"> <!-- This creates a container with margins and padding-->
+	<div class="jumbotron"> <!--A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site-->
+		<h1><i class="fas fa-image"></i> S.T.ink Photo Gallery</h1> <!--Heading with a awesome font icon, remeber to include the link in the head, you can though revert back to the default glyphicon with a camera glyphicon, the aria is to avoid unintended and confusing output in screen readers (particularly when icons are used purely for decoration), we hide them with the aria-hidden="true" attribute. <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>-->
+		<p>Here are a few of the tattoos we have done in the past, we have alot more to choose from so just contact us or pop in for a chat.</p> <!--Paragraph-->
+	</div>
+</div>
+
+						<!--Grid Row container, all iamges saved on postimage.org-->
+<div class="container"> <!-- This creates a container with margins and padding-->
+	<div class="row"> <!--Row of 12 columns, after 12 the next automatically wrap to the next row, so you dont need to add a new row-->
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/Bn7hKH7t/Amber-Resized.jpg" alt="amber" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/Y078H30D/Assassins-Creed-Resized.jpg" alt="creed" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+    			<img src="https://i.postimg.cc/k5kfj9mm/Back-Piece-Resized.jpg" alt="back piece" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/FR3G8qrJ/Bambi-Resized.jpg" alt="bambi" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/c4Z5ys81/Bat-Resized.jpg" alt="bat" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/q7t1XqWw/Bird-Resized.jpg" alt="bird" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/wjjfM0VS/Black-Back-Piece-Resized.jpg" alt="back black" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/zXj2q9nC/Claws-Resized.jpg" alt="claws" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/NfgbCpW5/Crash-Resized.jpg" alt="crash" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/ZYPVL1sG/Cross-Resized.jpg" alt="cross" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/6pP03wTv/Deer-Resized.jpg" alt="deer" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/52ygbj9J/Dog-Resized.jpg" alt="dog" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/hPpskVBM/Dragonfly-Resized.jpg" alt="dragonfly" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/TwMJV9V2/Eye-Resized.jpg" alt="eye" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/Pq8Mvc8F/Feather-Resized.jpg" alt="feather" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/TwVqCD0V/Forever-Resized.jpg" alt="forever" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/d3nRKczD/Fry-Resized.jpg" alt="fry" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/tRzN6FYy/Green-Dragon-Resized.jpg" alt="green dragon" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/sDD941hW/Helen-Resized.jpg" alt="helen" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/VLG9G1qV/Humming-Bird-Resized.jpg" alt="humming bird" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/2S1QgJT8/Indian-Resized.jpg" alt="indian" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/3xzXhBbj/Jason-Resized.jpg" alt="jason" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/nL7vhD6y/Jesus-Resized.jpg" alt="jesus" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/tTjFZgbY/Lions-Resized.jpg" alt="lions" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall  -->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/brYbgFsP/Manchester-Bee-Resized.jpg" alt="manchester bee" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/L5yPbB11/Mario-Resized.jpg" alt="mario" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/NGbRFYzj/Owl-Resized.jpg" alt="owl" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/02QDJ3Td/Panther-Resized.jpg" alt="panther" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/65mRVcws/Penny-Resized.jpg" alt="penny" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/P5vDSDrC/Prayer-Beads-Resized.jpg" alt="prayer beads" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/43z9gTcZ/Rose-Resized.jpg" alt="rose" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/LX2Z40kP/Scorpion-Dot-Resized.jpg" alt="scorpion" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/9MbwDt1n/Skull-Guns-Resized.jpg" alt="skull & guns" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/wMbtVqC5/Skull-Resized.jpg" alt="skull" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/3rLD71ky/Sonic-Resized.jpg" alt="sonic" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>
+		<div class="col-lg-4 col-sm-6"> <!--4 of the 12 columns in large screen 3 pictures across, will go to 2 when it gets to medium & small and 1 at xsmall-->
+			<div class="thumbnail"> <!--Adds thumbnail styling-->
+			<img src="https://i.postimg.cc/28VL5WW0/Wolf-Resized.jpg" alt="wolf" height="1280" width="720"> <!--Adds an image from sourcealternate info and image size-->
+			</div> 
+		</div>	
+	</div>
+</div>						
+
+                 <!--Footer-->
+<footer>	
+  <div class="copyright"> <!--Copyright class for styling-->
+    <p>&copy 2019 Antony Davenport</p> <!--Paragraph text-->
+  </div>
+  <div class="social"> <!--Class social for styling-->
+    <a  href="Contact.html" target="blank" class="support">Contact Us</a> <!--Link to open a new page to the contact page, with a stlying class of support-->
+    <a  href="https://www.facebook.com/stinktattoo/" target="blank" class="face">Facebook</a> <!--Link to open a new page to the facebook page, with a styling class of face-->
+    <a  href="https://twitter.com/" target="blank" class="tweet">Twitter</a> <!--Link to open a new page to the twitter page, with a styling class of tweet-->
+    <a  href="https://www.instagram.com/" target="blank" class="insta">Instagram</a> <!--Link to open a new page to the instagram page, with a styling class of insta-->
+    <a  href="https://www.linkedin.com/feed/" target="blank" class="linked">Linkedin</a> <!--Link to open a new page to the linkedin page, with a styling class of linked-->
+  </div>
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--jQuery library-->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--Latest compiled JavaScript-->
+
+</body>
+</html>

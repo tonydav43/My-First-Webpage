@@ -1,0 +1,145 @@
+
+	body { /*Body styling*/
+		background-color: silver; /*Silver background*/
+		margin-bottom: 50px; /*Gives a 50px margin at the bottom of the page*/
+		/*background: url("Stink Studio BW.png"); /*Uses an image as a background*/
+		/*background-size: cover; /*Will resize the background image to make sure the element is fully covered*/
+		/*background-position: center; /*Centers the background image*/
+		/*background-attachment: fixed; /*Image fixed and will not scroll with the page*/	
+	}
+
+	.navbar-default{ /*Styling for default navbar*/
+	    /*background-color:#d9d9d9; /*Grey background to the navbar if needed, using default for now*/
+	    font-family: Srisakdi; /*Sets a font style to the navigation bar*/
+	    font-size: 20px; /*Size of the font*/ 
+	    font-weight: 700;
+	    letter-spacing: 3px; /*Space between each letter*/
+	    color: #40e0d0; /* Text colour turquoise*/
+	}
+
+	.navbar-default .navbar-nav>li>a { /*Styling for the anchor tags in the default navbar*/
+    	color: #40e0d0; /* Text colour turquoise*/  
+	}
+
+	.navbar-default .navbar-nav>li>a:hover { /*Styling for the anchor tags in the default navbar when hovering over them*/
+	    background-color:#aaa; /*Sets a medium grey background on hover*/
+	    color: red; /*Changes the text colour to red on hover*/
+	}
+
+	.container .jumbotron { /*Styling for the jumbotron in the div container*/
+	    padding-top: 50px; /*Padding top*/
+	    padding-right: 5px; /*Padding right*/
+	    padding-left: 25px; /*Padding left*/
+	}
+
+	.jumbotron{ /*Styles the jumbotron*/
+		background-color: silver; /*Colour is light grey*/
+		font-family: srisakdi; /*Font downloaded from google fonts*/
+		padding-top: 5%; /*Padding too*/
+		position: fixed; /*Position is fixed*/
+	}
+ 
+	.jumbotron h1{ /*H1 styling*/
+		color: #008080 !important; /*Font colour teal*/
+		text-align: center;	/*Aligns the text central*/
+	}
+
+	p { /*paragraph styling*/
+		font-size: 2em; /*Font size of 2em, 2 x the parent element size*/
+		color: #008080; /*Font colour teal*/
+		text-align: center;	/*Aligns the text central*/
+	}
+
+	.row { /*Row styling*/
+		padding-top: 20%; /*Gives the row 20% padding at the top to push it away from the jumbotron*/
+	}
+
+	.thumbnail{ /*Styles the thumbnail class*/
+		border: 2px solid silver; /*Background is silver*/
+	}
+
+	.thumbnail:hover{ /*Hover styling*/
+	    position:relative; /*The element is positioned relative to its normal position*/
+	    top:-25px; /*Moves the image this amount up from its position*/
+	    left:-35px; /*Moves the image this much left of its position*/
+	    width:750px; /*Enlarges the image this much*/
+	    height:auto; /*Auto hight for the container*/
+	    display:block; /*Element is displayed as a block*/
+	    z-index:999;  /*An element with greater stack order is always in front of an element with a lower stack order. Note: z-index only works on positioned elements (position:absolute, position:relative, or position:fixed). Default value: auto.*/
+	 }
+
+	footer {
+		position: fixed; /*Footer is fixed to the bottom*/
+	    bottom: 0px; /*No bottom margin*/
+	    left: 0px; /*No left margin*/
+	    right: 0px; /*No right margin*/
+	    margin: 0; /*Sets the top/bottom margins at 2em and the left/right margins at 0px*/
+		width: 100%; /*Stretches 100% across the page*/
+		display: inline-block; /*Displays items horizontally instead of vertically*/
+		height: 50px; /*Footer height of 70px*/
+		background-color: #999; /*Sets the footer background colour*/
+	}
+
+	.copyright { /*Copyright styling*/
+		width: 50%; /*Takes up 50% of the footer space*/
+		float: left; /*Push the writing to the left */
+	}
+
+    .copyright p {
+	    /*padding-left:5%; can add some padding if you want to move the writing to the right etc*/
+	    color: white; /*Sets the textcolour as white*/
+	    font-size: 8px; /*Font size is set to 8px*/
+	    line-height: 50px;
+	    text-transform: capitalize;
+	    letter-spacing: 2px; /*Set the letter spacing a 2px*/
+	    text-align: center; /*Aligns the text central in the 50% container*/
+	}
+
+    .social { /*Social styling*/
+     	width: 50%; /*Use the remaining 50% of the footer space*/
+      	float: right; /*Pushes the text to the right*/
+    }
+
+    .social a { /*Anchor tag styling*/
+    	font-size: 8px; /*Font size is set to 8px*/
+	    float: left; /*Push the text to the left*/
+	    line-height: 50px; /*Sets line height for the anchor tags*/
+	    text-decoration: none !important; /*Sets no text decoration, ie removes the link underline important will overide*/
+	    color: white; /*Sets the anchor tag text colour to white*/
+	    text-align: center; /*enters the anchor tags text*/
+	    font-weight: bold; /*Bolds the anchor tags text*/ 
+	    transition: .5s; /*Time set for transistion*/
+    }
+
+    .social a:hover { /*Hover styling*/
+    	color: white; /*Text colour on hovering*/
+    	background-color: #222; /*On hovering turns the background dark grey*/
+    	transition: .5s; /*Time set for transistion*/
+    }
+
+	.face { /*Face styling*/
+  		background-color: #3D5B94; /*Sets the Facebook background as blue*/
+  		width: 15%; /* Use 15% of the class social space*/ 
+	}
+
+	.tweet { /*Tweet styling*/
+  		background-color: #3DACDD; /*Sets the Twitter background as light blue*/
+  		width: 15%; /* Use 15% of the class social space*/
+	}
+
+	.insta { /*Insta styling*/
+  		background-color: #458eff; /*Sets the Instagram background as light blue*/
+  		width: 15%; /* Use 15% of the class social space*/ 
+	}
+
+	.linked { /*Linked styling*/
+  		background-color: #1E83AE; /*Sets the Linkedin background as dark blue*/
+  		width: 15%; /* Use 15% of the class social space*/ 
+	}
+
+	.support { /*Support styling*/
+		color: white; /*Text colour is white*/
+  		background-color: #6dcd9a; /*Sets the Support background as green*/
+  		font-size: 8px; /*Font size is set to 16px*/
+  		width: 40%; /*/* Use 40% of the class social space*/
+	}

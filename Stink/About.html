@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About Us</title>
+
+	<meta charset="utf-8"> <!--utf-8 is character encoding capable of encoding all characters on the web-->
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--The browser's viewport is the area of the window in which web content can be seen-->
+
+  	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet"> <!--Google embeded code font-->
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--Version 3.4.0-->
+
+	<link rel="stylesheet" type="text/css" href="About.css"> <!--Custom css file-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> <!--Link to awesome font-->
+
+	<!--Bootstrap's global default font-size is 14px, with a line-height of 1.428.This is applied to the <body> element and all paragraphs (<p>).
+	In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default). -->
+
+</head>
+
+<body>
+							
+									<!--Nav bar container-->
+		
+<nav class="navbar navbar-default navbar-fixed-top"> <!--Navbar class, default navigation bar which is fixed at the top-->
+	<div class="container-fluid"> <!--Container fluid class stretches the whole width which is inside the navigation bar class-->
+
+		<div class="navbar-header"> <!--Navigation bar header-->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> 
+				<!--The nav bar is a button type, collpses as the screen gets smaller and shows a hamburger, show/hide collapsable content and the ID associated with it-->
+				<span class="icon-bar"></span> <!--Hamburger line 1-->
+        		<span class="icon-bar"></span> <!--Hamburger line 2-->
+        		<span class="icon-bar"></span> <!--Hamburger line 3-->
+			</button>
+		</div>
+							<!--Right Collapsable Navbar-->
+		<div class="collapse navbar-collapse" id="myNavbar"> <!--Menu can collpase etc depending on screen size, link to the collapsable item in the button above-->
+			<ul class="nav navbar-nav navbar-right"> <!--Sets the navigation bar to the left side which is default-->
+				<li><a href="Stink Tattoo Studio.html" target="blank"> Home <i class="fas fa-home"></i></a></li> <!-- Active list item with a link and a home awesome icon-->
+        		<li><a href="#"> About <i class="fas fa-users"></i></a></li> <!-- List item with a link and a user icon-->
+        		<li><a href="Stink Photo Gallery.html" target="blank"> Gallery <i class="fas fa-images"></i></a></li> <!-- List item with a link to a gallery page and a picture awesome icon-->
+        		<li><a href="Pricing.html" target="blank"> Pricing <i class="fas fa-pound-sign"></i></a></li> <!-- List item with a link and a telephone awesome icon-->
+        		<li><a href="FAQ.html" target="blank"> FAQ <i class="fas fa-info-circle"></i></a></li> <!-- List item with a link and a telephone awesome icon-->
+        		<li><a href="Testimonials.html" target="blank"> Testimonials <i class="fas fa-user-friends"></i></a></li> <!-- List item with a link and a user awesome icon-->
+        		<li><a href="Contact.html" target="blank"> Contact <i class="fas fa-phone"></i></a></li> <!-- List item with a link and a pound sign awesome icon-->
+			</ul>
+
+							<!--Left follow us links-->
+			<span style="color: ¨black"> Follow Us </span> <!--Basic text-->
+			<a href="https://www.facebook.com/stinktattoo/" target="blank"><i class="fab fa-facebook-square" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your facebook page, with an awesome facebook font icon-->
+			<a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your twitter page, an awesome twitter font icon-->
+			<a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your twitter page, an awesome instagram font icon-->
+			<a href="https://www.linkedin.com/feed/" target="blank"><i class="fab fa-linkedin" style="padding-top: 15px"></i></a> 
+			<!-- Link which will open to your linkedin page, an awesome linkedin font icon-->
+		</div> 
+	</div>
+</nav>	
+
+							
+						<!--Who We Are Container--> 
+
+<div class="container" style="padding-top:75px"> <!--Container with a padding of 100px to push it away from the navbar-->
+		<h1> Who We Are </h1> <!--Heading, the aria is to avoid unintended and confusing output in screen readers (particularly when icons are used purely for decoration), we hide them with the aria-hidden="true" attribute. <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>-->
+		<h1> We are just 2 people who love to tattoo! </h1> <!--Heading-->
+		<hr> <!--Horizontal row with extra styling-->
+</div>
+
+						<!--Grid Row container, all images saved on postimage.org-->
+<div class="container text-center"> <!-- This creates a container with margins and padding, also centers the text-->
+	<div class="row"> <!--Row of 12 columns-->
+		<div class="col-lg-3 col-sm-6"> <!--Will show as 3 col of 4 until sm where it will show 2 col of 6, after that it will stack-->
+			<h1>Steve</h1> <!--Strong paragraph-->
+			<a href="#steve" data-toggle="collapse"> <!--The #demo creates the link to the id member1, the data toggle shows or hides the content-->
+			<img src="https://i.postimg.cc/NF09m9zf/Steve.jpg" class="img-circle person" alt="Steve" height="160" width="160"> <!--Image source, circled with styling form above, alternative text is steve, image size-->
+			</a>
+			<div id="steve" class="collapse"> <!--Links id steve to the link steve, indicates a collapsable element-->
+				<p>Tattooist</p> <!--Paragraph-->
+				<p>Love tattooing and to compete in pub quizzes</p> <!--Paragraph-->
+				<p>Tattooing since 2000</p> <!--Paragraph-->
+			</div>	
+		</div>
+
+		<div class="col-lg-3 col-sm-6"> <!--Will show as 3 col of 4 until sm where it will show 2 col of 6, after that it will stack-->
+			<h1>Roz</h1> <!--Strong paragraph-->
+			<a href="#roz" data-toggle="collapse">  <!--Links id steve to the link steve, indicates a collapsable element-->
+			<img src="https://i.postimg.cc/nL8DgLC0/Roz.jpg" class="img-circle person" alt="Roz" height="160" width="160"> <!--Image source, circled with styling form above, alternative text is Roz, image size-->
+			</a>
+			<div id="roz" class="collapse"> <!--Links id roz to the link roz, indicates a collapsable element-->
+				<p>Reception/Steves Wife</p> <!--Paragraph-->
+				<p>Loves to help Steve and dot tattoo as well</p> <!--Paragraph-->
+				<p>Tattooing since 2002</p> <!--Paragraph-->
+			</div>		 
+		</div>
+
+		<div class="col-lg-3 col-sm-6"> <!--Will show as 3 col of 4 until sm where it will show 2 col of 6, after that it will stack-->
+			<h1>Parrot</h1> <!--Strong paragraph-->
+			<a href="#parrot" data-toggle="collapse">  <!--The #demo creates the link to the id member3, the data toggle shows or hides the content-->
+			<img src="https://i.postimg.cc/C1skjVMJ/Parrot.jpg" class="img-circle person" alt="Parrot" height="160" width="160">	<!--Image source, circled with styling form above, alternative text is Parrot,image size-->
+			</a>
+			<div id="parrot" class="collapse"> <!--Links id parrot to the link parrot, indicates a collapsable element-->
+				<p>I look good</p> <!--Paragraph-->
+				<p>Cant say alot just yet, but love my baths</p> <!--Paragraph-->
+				<p>Family member since 2017</p> <!--Paragraph-->
+			</div>	
+		</div>
+		
+		<div class="col-lg-3 col-sm-6"> <!--Will show as 3 col of 4 until sm where it will show 2 col of 6, after that it will stack-->
+			<h1>Gecko</h1> <!--Strong paragraph-->
+			<a href="#gecko" data-toggle="collapse">  <!--The #demo creates the link to the id member3, the data toggle shows or hides the content-->
+			<img src="https://i.postimg.cc/XqnKhY1T/Gecko.jpg" class="img-circle person" alt="Gecko">	<!--Image source, circled with styling form above, alternative text is Gecko, image size-->
+			</a>
+			<div id="gecko" class="collapse"> <!--Links id parrot to the link parrot, indicates a collapsable element-->
+				<p>I do nothing</p> <!--Paragraph-->
+				<p>I love to eat</p> <!--Paragraph-->
+				<p>Family Member since 1999</p> <!--Paragraph-->
+			</div>	
+		</div>
+	</div>
+</div>
+
+                 <!--Footer-->
+<footer>	
+  <div class="copyright"> <!--Copyright class for styling-->
+    <p>&copy 2019 Antony Davenport</p> <!--Paragraph text-->
+  </div>
+  <div class="social"> <!--Class social for styling-->
+    <a  href="Contact.html" target="blank" class="support">Contact Us</a> <!--Link to open a new page to the contact page, with a stlying class of support-->
+    <a  href="https://www.facebook.com/stinktattoo/" target="blank" class="face">Facebook</a> <!--Link to open a new page to the facebook page, with a styling class of face-->
+    <a  href="https://twitter.com/" target="blank" class="tweet">Twitter</a> <!--Link to open a new page to the twitter page, with a styling class of tweet-->
+    <a  href="https://www.instagram.com/" target="blank" class="insta">Instagram</a> <!--Link to open a new page to the instagram page, with a styling class of insta-->
+    <a  href="https://www.linkedin.com/feed/" target="blank" class="linked">Linkedin</a> <!--Link to open a new page to the linkedin page, with a styling class of linked-->
+  </div>
+</footer>
+								
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--jQuery library-->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--Latest compiled JavaScript-->
+
+</body>
+</html>	
